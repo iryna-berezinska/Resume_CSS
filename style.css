@@ -252,6 +252,11 @@ header{
     float: right;
     margin: 0px 150px 7px 7px;
 }
+@media (max-width: 500px) {
+    .square {
+        display: none;
+    }
+}
 
 /*experience*/
 
@@ -284,6 +289,12 @@ header{
     margin: 0px 20px 7px 150px;
 }
 
+@media (max-width: 500px) {
+    .square2 {
+        display: none;
+    }
+}
+
 .square3 {
     width: 500px;
     height: 450px;
@@ -293,6 +304,12 @@ header{
     margin: 0px 150px 7px 7px;
 }
 
+
+@media (max-width: 500px) {
+    .square3 {
+        display: none;
+    }
+}
 .head {
     margin-bottom: 15px;
 }
@@ -326,7 +343,7 @@ footer {
 }
 .float-end {
     margin-left: 150px;
-    margin-right: 78%;
+    margin-right: 70%;
     font-size: 17px;
     font-family: Arial, sans-serif;
     color: -webkit-text;
