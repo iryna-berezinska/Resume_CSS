@@ -188,7 +188,23 @@ header{
         transform: translateX(100%);
     }
 }
+@-moz-keyframes move {
+    from {
+        -moz-transform: translateX(0);
+    }
+    to {
+        -moz-transform: translateX(100px);
+    }
+}
 
+@-webkit-keyframes move {
+    from {
+        -webkit-transform: translateX(0);
+    }
+    to {
+        -webkit-transform: translateX(100px);
+    }
+}
 
 /*button*/
 .button {
