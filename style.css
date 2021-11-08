@@ -252,7 +252,7 @@ header{
     float: right;
     margin: 0px 150px 7px 7px;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
     .square {
         display: none;
     }
@@ -289,7 +289,7 @@ header{
     margin: 0px 20px 7px 150px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
     .square2 {
         display: none;
     }
@@ -305,7 +305,7 @@ header{
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
     .square3 {
         display: none;
     }
