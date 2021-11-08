@@ -77,7 +77,7 @@ header{
 }
 
 .slider {
-    background-color: #dddddd;
+    background-color: #777777;
     height: inherit;
     overflow: hidden;
     position: relative;
@@ -175,7 +175,20 @@ header{
     -moz-transform: scale(1);
     -o-transform: scale(1);
     transform: scale(1);
+
+    animation: move 1s ease-in-out 0.5s 2 alternate;
+    -moz-animation: move 1s ease-in-out 0.5s 2 alternate;
+    -webkit-animation: move 1s ease-in-out 0.5s 2 alternate;
 }
+@keyframes move {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
 
 /*button*/
 .button {
