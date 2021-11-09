@@ -193,7 +193,7 @@ header{
         -moz-transform: translateX(0);
     }
     to {
-        -moz-transform: translateX(100px);
+        -moz-transform: translateX(100%);
     }
 }
 
@@ -202,7 +202,7 @@ header{
         -webkit-transform: translateX(0);
     }
     to {
-        -webkit-transform: translateX(100px);
+        -webkit-transform: translateX(100%);
     }
 }
 
